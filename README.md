@@ -4,6 +4,24 @@ A fun, game-like math education app for middle school students. Students earn XP
 
 ---
 
+## 🌐 Deploying to GitHub Pages (one-time setup)
+
+The app is hosted at **https://dishchiibikoh-community-school.github.io/ReWoMa** via GitHub Actions.
+
+After merging to `main` for the first time, you must enable the GitHub Actions deployment source **once** in the repository settings:
+
+1. Go to your repository on GitHub.com
+2. Click **Settings** (top navigation tab)
+3. In the left sidebar, click **Pages** (under *Code and automation*)
+4. Under **Build and deployment → Source**, open the dropdown and select **GitHub Actions**
+5. Click **Save**
+
+That's it! Every future push to `main` will automatically build and deploy the app. You can watch the progress under the **Actions** tab.
+
+> **Already done?** If the source is already set to *GitHub Actions*, you don't need to change anything.
+
+---
+
 ## 🚀 Getting Started in VS Code
 
 ### 1. Install dependencies
