@@ -73,6 +73,25 @@ realworld-math/
 
 ---
 
+## 🌐 Deployment
+
+The app is automatically deployed to **GitHub Pages** whenever a change is pushed to the `master` branch (via the workflow in `.github/workflows/deploy.yml`).
+
+### One-time setup (do this once, then it's automatic)
+
+1. Go to your repository on GitHub
+2. Click **Settings** → **Pages** (in the left sidebar)
+3. Under **Build and deployment → Source**, select **"GitHub Actions"**
+4. Click **Save**
+
+After that, every push to `master` will trigger the workflow, build the app, and publish it. The live site will be available at:
+
+> **https://dishchiibikoh-community-school.github.io/ReWoMa/**
+
+You can watch the progress under the **Actions** tab of your repository.
+
+---
+
 ## 🛠 Built With
 
 - [React 18](https://react.dev/)
