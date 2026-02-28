@@ -27,7 +27,7 @@ This opens the app at **http://localhost:3000** in your browser.
 This project uses `gh-pages` and deploys the production build to the `gh-pages` branch.
 
 1. Make sure the repo name matches the `homepage` in `package.json`.
-	- Current value: `/REWOMA`
+	- Current value: `/ReWoMa`
 	- If your repo name is different, update that value.
 2. Deploy:
 
@@ -42,7 +42,7 @@ npm run deploy
 
 After saving, wait ~1–3 minutes and open:
 
-`https://<your-username>.github.io/REWOMA/`
+`https://<your-username>.github.io/ReWoMa/`
 
 ---
 
