@@ -22,6 +22,30 @@ This opens the app at **http://localhost:3000** in your browser.
 
 ---
 
+## 🌐 Deploy to GitHub Pages
+
+This project uses `gh-pages` and deploys the production build to the `gh-pages` branch.
+
+1. Make sure the repo name matches the `homepage` in `package.json`.
+	- Current value: `/REWOMA`
+	- If your repo name is different, update that value.
+2. Deploy:
+
+```bash
+npm run deploy
+```
+
+3. In GitHub: **Settings → Pages**
+	- **Source**: `Deploy from a branch`
+	- **Branch**: `gh-pages`
+	- **Folder**: `/ (root)`
+
+After saving, wait ~1–3 minutes and open:
+
+`https://<your-username>.github.io/REWOMA/`
+
+---
+
 ## 🎮 Features
 
 - **Auto-generated kid-safe names** — Students get fun names like `TurboNarwhal47` automatically. No typing needed, no inappropriate names possible. They can reroll with the 🎲 button.
