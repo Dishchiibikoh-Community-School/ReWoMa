@@ -96,6 +96,17 @@ realworld-math/
 
 ---
 
+## 🌐 Deploying to GitHub Pages
+
+The site is deployed automatically via GitHub Actions whenever changes are pushed to the `master` branch.
+
+To enable this:
+1. Go to **Settings → Pages** in the GitHub repository
+2. Under **Source**, select **GitHub Actions**
+3. Push to `master` — the workflow will build and publish the site automatically
+
+---
+
 ## 🛠 Built With
 
 - [React 18](https://react.dev/)
